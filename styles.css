@@ -1,0 +1,125 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #8e1b77, #ff4eaa);
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* Landing Page */
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #ff4eaa, rgb(176, 54, 117));
+    position: relative;
+    overflow: hidden;
+}
+
+.landing .overlay {
+    z-index: 2;
+    max-width: 800px;
+}
+
+.landing h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.landing .btn {
+    background: #fff;
+    color: #fcb125;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s;
+}
+
+.landing .btn:hover {
+    background: #ddd;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #fff;
+}
+
+.card-content {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Video */
+iframe {
+    width: 100%;
+    height: 360px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
